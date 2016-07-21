@@ -7,6 +7,10 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+get '/home' do
+  erb :front_end
+end
+
   post '/results' do
     @results= Result.new(1, 1, 1, 1).results
     erb :results
