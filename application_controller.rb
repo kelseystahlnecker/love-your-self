@@ -7,4 +7,9 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  post '/results' do
+    @results= Result.new(1, 1, 1, 1).results
+    erb :results
+  end
+
 end
