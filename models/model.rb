@@ -1,14 +1,17 @@
 class Result
-  def initialize(physical, happy, mental, life_view)
-    @physical=physical
-    @happy=happy
-    @mental=mental
-    @life_view=life_view
+  def initialize(phys, q2, q3, q4)
+    @score= phys+q2+q3+q4
   end
-  def crisis
-    if @mental=="crisis"
-      @result= "please seek help, hotlines etc"
+  def results
+    if @score>100
+      "Emergency page"
+    elsif @score<=6
+      "Good page"
+    elsif @score.between?(8, 10)
+      "medium page"
+    elsif @score.between?(11, 12)
+      "bad page"
     end
   end
-  
+
 end
