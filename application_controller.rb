@@ -12,7 +12,11 @@ get '/home' do
 end
 
   post '/results' do
-    @results= Result.new(1, 1, 1, 1).results
+    @num1= params[:phys].to_i
+    @num2= params[:q2].to_i
+    @num3= params[:q3].to_i
+    @num4= params[:q4].to_i
+    @results= Result.new(@num1, @num2, @num3, @num4).results
     erb :results
   end
 
