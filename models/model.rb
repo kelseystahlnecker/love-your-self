@@ -4,14 +4,15 @@ class Result
   end
   def results
     if @score>100
-      "Emergency page"
+      advice = "Emergency page"
     elsif @score<=6
-      "Good page"
+      advice = "Good page"
     elsif @score.between?(8, 10)
-      "medium page"
+      advice ="medium page"
     elsif @score.between?(11, 12)
-      "bad page"
+      advice = "bad page"
     end
+    return advice
   end
 
 end
