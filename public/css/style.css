@@ -1,5 +1,4 @@
-
-.background{
-background-color: #5EE4C3
+body {
+    background-image: url("/public/images/paint_background.jpg");
 
 }
