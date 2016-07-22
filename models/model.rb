@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 def piglatinize(word)
   non_pig_latin_words = ["i", "me", "to", "too", "a", "an", "in", "and", "on"]
   vowels = ["a", "e", "i", "o", "u"]
@@ -15,8 +15,7 @@ def piglatinize(word)
     end
     word + consonants + 'ay'
   end
-=======
-class Result
+# class Result
 def initialize(phys, q2, q3, q4)
 @score= phys+q2+q3+q4
 end
