@@ -1,0 +1,23 @@
+
+body {
+   background-image: url("/images/paint_background.jpg");
+}
+
+.result{font-size: 50px;
+  text-decoration: bold;}
+
+.warning{
+  color: red;
+  text-decoration: underline;}
+
+
+h5{
+  text-decoration: none;
+  color: red;
+  font-size: 100px;}
+
+.header{
+   font-size: 100px;
+  background-color: lightblue;
+  color: white;
+}
