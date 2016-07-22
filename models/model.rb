@@ -1,3 +1,4 @@
+
 class Result
 def initialize(phys, q2, q3, q4)
 @score= phys+q2+q3+q4

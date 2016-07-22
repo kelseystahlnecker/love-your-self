@@ -1,0 +1,12 @@
+body{
+  background-image: url("/images/paint_background.jpg");
+  background-size: 100%;
+}
+.question{font-size: 50px;
+text-decoration: underline;
+background-color: #A3E4D7;
+color:white;
+}
+.answer{font-size: 25px;}
+
+.button{font-size: 30px;}
