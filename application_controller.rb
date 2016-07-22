@@ -3,11 +3,11 @@ Bundler.require
 require_relative 'models/model.rb'
 class ApplicationController < Sinatra::Base
 
-  get '/' do
+  post '/quiz' do
     erb :index
   end
 
-get '/home' do
+get '/' do
   erb :front_end
 end
 
